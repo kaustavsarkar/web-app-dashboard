@@ -1,0 +1,57 @@
+{
+  "env": {
+    "development": {
+      "application/javascript": {
+        "presets": [
+          [
+            "env",
+            {
+              "targets": {
+                "electron": "5.0.1"
+              }
+            }
+          ],
+          "react",
+          "es2016-node5"
+        ],
+        "plugins": [
+          "react-hot-loader/babel",
+          "dynamic-import-node",
+          ["transform-es2015-modules-commonjs", {
+      "allowTopLevelThis": true
+    }],
+          "transform-async-to-generator",
+          "transform-es2015-modules-commonjs"
+        ],
+        "sourceMaps": "inline"
+      },
+      "text/html": {
+        "pretty": true
+      }
+    },
+    "production": {
+      "application/javascript": {
+        "presets": [
+          [
+            "env",
+            {
+              "targets": {
+                "electron": "5.0.1"
+              }
+            }
+          ],
+          "react"
+        ],
+        "plugins": [
+          "syntax-dynamic-import",
+          "dynamic-import-node",
+          "transform-es2015-classes",
+          "transform-async-to-generator",
+          "transform-es2015-modules-commonjs",
+          "transform-object-rest-spread"
+        ],
+        "sourceMaps": "none"
+      }
+    }
+  }
+}

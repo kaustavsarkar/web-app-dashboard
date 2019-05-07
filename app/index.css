@@ -1,0 +1,68 @@
+.flat-grid-cell {
+    background-color: rgba(209, 18, 18, 0.4);
+    margin: 0px 10px 10px 0px;
+    text-align: center;
+    width: 150px;
+    height: 150px;
+    overflow: hidden;
+}
+
+.app-nav-item {
+    display: inline-block;
+    position: relative;
+    width: 125px;
+    height: 132px;
+    text-align: center;
+    cursor: pointer;
+    z-index: 1;
+    -webkit-transform: translateZ(0);
+    -webkit-user-select: none;
+    -khtml-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    -o-user-select: none;
+    user-select: none;
+}
+
+.app-nav-item .svg-nav.svg-bkgd08 {
+    background-color: transparent;
+    -webkit-transition: box-shadow 0.5s, background-color 0.5s;
+    transition: box-shadow 0.5s, background-color 0.5s;
+    box-shadow: none;
+    width: 96px;
+    height: 96px;
+    border-radius: 50%;
+    position: relative;
+    margin: 10px 0px;
+}
+
+.svg-shortcut {
+    fill: transparent;
+}
+
+.svg-cluster {
+    fill: transparent;
+}
+
+.svg-icon18, .svg-icon09 {
+    fill-opacity: 0;
+    fill: #ffffff;
+}
+
+.app-nav-item {
+    text-align: center;
+    cursor: pointer;
+}
+
+.flat-grid-nav-label {
+    color: rgb(0, 0, 238);
+    cursor: pointer;
+    display: inline;
+    height: auto;
+    text-align: center;
+    text-decoration-color: rgb(0, 0, 238);
+    text-decoration-line: underline;
+    text-decoration-style: solid;
+    user-select: none;
+    width: auto;
+}
